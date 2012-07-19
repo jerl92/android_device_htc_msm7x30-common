@@ -46,6 +46,10 @@ PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     device/htc/msm7x30-common/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw
 
+# Camera
+PRODUCT_COPY_FILES += \
+    device/htc/msm7x30-common/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so
+
 PRODUCT_PACKAGE_OVERLAYS += device/htc/msm7x30-common/overlay
 
 # Audio
