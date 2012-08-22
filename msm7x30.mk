@@ -83,7 +83,8 @@ PRODUCT_PACKAGES += \
     libmm-omxcore \
     libdivxdrmdecrypt \
     libOmxVdec \
-    libOmxVenc
+    libOmxVenc \
+    libI420colorconvert
 
 # Misc
 PRODUCT_PACKAGES += \
