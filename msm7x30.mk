@@ -46,6 +46,10 @@ PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     device/htc/msm7x30-common/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw
 
+# media configs
+PRODUCT_COPY_FILES += \
+    device/htc/msm7x30-common/media_profiles.xml:system/etc/media_profiles.xml 
+
 # Camera
 PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so
